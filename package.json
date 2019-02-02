@@ -2,8 +2,11 @@
   "name": "data-grid",
   "version": "1.0.0",
   "description": "An Excel like react component for data display and editing. Typescript compatible",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/DominikHorn/data-grid.git"
