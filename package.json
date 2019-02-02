@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "manual-test": "npm run build && browserify dist/index.js -o test/bundle.js && open test/index.html"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,14 @@
   },
   "homepage": "https://github.com/DominikHorn/data-grid#readme",
   "devDependencies": {
+    "browserify": "^16.2.3",
+    "tslib": "^1.9.3",
     "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.1",
+    "@types/react-dom": "^16.0.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
