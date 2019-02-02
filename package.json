@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/DominikHorn/data-grid/issues"
   },
-  "homepage": "https://github.com/DominikHorn/data-grid#readme"
+  "homepage": "https://github.com/DominikHorn/data-grid#readme",
+  "devDependencies": {
+    "typescript": "^3.3.1"
+  }
 }
